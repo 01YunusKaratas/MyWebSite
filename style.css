@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./pexels-pixabay-276514.jpg");
+    background-size: cover; /* Ekranı tamamen kapla */
+    background-position: center;
+    font-family: sans-serif;
+   
+}
+
+#box {
+    max-width: 600px; /* Maksimum genişlik */
+    margin: 0 auto;
+    background-color: #D2B48C;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10%; /* Yükseklik ayarı */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+#infimg {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+h1, h5 {
+    margin: 10px 0;
+}
+
+p {
+    text-align: justify;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin: 5px;
+}
+
+a {
+    color: black;
+    font-size: 24px;
+    transition: all ease-in-out 250ms;
+}
+
+a:hover {
+    color: #b9b9b9;
+}
